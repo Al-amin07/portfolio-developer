@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 /* Nav Ber */
 
@@ -50,10 +51,11 @@ header{
 /* Header Style */
 
 .banner{
-    padding: 0 0 0 200px ;
+    padding-left: 200px;
     display: flex;
     align-items: center;
     gap: 160px;
+    
 }
 .banner-greet{
     font-size: 45px;
@@ -70,5 +72,60 @@ header{
 }
 .banner img{
     margin-right: 30px;
+    
+}
+/* About Me Section */
+
+.main{
+     
+}
+section{
+    margin: 120px 230px;
+    border-radius: 5px;
+    text-align: center;
+}
+.about{
+    
+    background-color: #FFF8F3;
+   
+    padding: 130px 150px;
+}
+.about-title{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.about-desc{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.details , .value{
+    font-size: 20px;
 }
 
+/* What I do Section */
+.what-i-do-title{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.what-i-do-desc{
+    padding: 0 40px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.skill{
+    padding: 30px;
+    background-color: #FFFFFF;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    
+
+}
+.skills{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 30px;
+}
