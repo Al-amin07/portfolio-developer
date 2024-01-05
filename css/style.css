@@ -121,11 +121,43 @@ section{
     background-color: #FFFFFF;
     border: 1px solid wheat;
     border-radius: 5px;
+    text-align: left;
     
 
 }
 .skills{
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(4,1fr);
-    column-gap: 30px;
+    column-gap: 30px; */
+    display: flex;
+    gap: 30px;
+}
+
+/* Resume Section */
+.resume-title{
+    font-size: 35px;
+    margin-bottom: 100px;
+}
+.edu-title{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.container-edu-title{
+    font-size: 25px;
+    margin-top: 30px;
+    
+}
+.container-edu-institude{
+    font-weight: lighter;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.con-desc{
+    margin-bottom: 30px;
+}
+.edu-ex{
+    text-align: left;
+    display: flex;
+    gap: 40px;
+
 }
