@@ -161,3 +161,29 @@ section{
     gap: 40px;
 
 }
+/* Footer */
+input, textarea{
+    padding: 5px 10px;
+    font-size: 20px;
+    margin-bottom: 24px;
+    width: 80%;
+    /* margin-top: 20px; */
+}
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 120px;
+    background-color: #FFF8F3;
+
+}
+.massege h2,.connect h2{
+    margin-bottom: 20px;
+}
+.connect ul li{
+    list-style-type: none;
+}
+.connect ul{
+    margin-top: 20px;
+    display: flex;
+    gap: 24px;
+}
